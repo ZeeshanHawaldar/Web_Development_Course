@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover{
+            color: aquamarine;
+            background-color: brown;
+        }
+        /*child selector*/
+      ul>li{
+        border: 4px dotted red;
+      }
+
+    /*  sibling selector*/
+    button+h2{
+        background-color: chartreuse;
+    /*nth child selector*/
+    }
+    ul li:nth-child(3){
+        background-color: chocolate;
+    }
+    /*first letter*/
+    button::first-letter{
+        font-size: 60px;
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <button>click me</button>
+    <h2>web languages</h2>
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+    </ul>
+    <h2>hello</h2>
+</body>
+</html>

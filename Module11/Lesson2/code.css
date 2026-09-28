@@ -25,7 +25,10 @@ body {
   background-color: midnightblue;
   border-radius: 12px;
   color: white;
+  border: 4px dotted red;
 }
+
+
 
 .fact-card h2 {
   color: coral;
